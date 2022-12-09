@@ -9,9 +9,9 @@ import spacy
 
 print("Loading models...")
 MODELS = {
-    "en_core_web_sm": spacy.load("en_core_web_sm"),
+    # "en_core_web_sm": spacy.load("en_core_web_sm"),
     # "en_core_web_md": spacy.load("en_core_web_md"),
-    # "en_core_web_lg": spacy.load("en_core_web_lg"),
+    "en_core_web_lg": spacy.load("en_core_web_lg"),
 }
 print("Models loaded!")
 

@@ -7,7 +7,7 @@ import spacy
 from spacy.matcher import Matcher
 
 
-MODELS = {"en_core_web_sm": spacy.load("en_core_web_sm")}
+MODELS = {"en_core_web_lg": spacy.load("en_core_web_lg")}
 
 
 def get_model_desc(nlp, model_name):

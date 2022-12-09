@@ -9,8 +9,8 @@ import spacy
 print("Loading...")
 MODELS = {
     "en_core_web_sm": spacy.load("en_core_web_sm"),
-    # "en_core_web_md": spacy.load("en_core_web_md"),
-    # "en_core_web_lg": spacy.load("en_core_web_lg"),
+    "en_core_web_md": spacy.load("en_core_web_md"),
+    "en_core_web_lg": spacy.load("en_core_web_lg"),
     # "de_core_news_sm": spacy.load("de_core_news_sm"),
     # "es_core_news_sm": spacy.load("es_core_news_sm"),
     # "pt_core_news_sm": spacy.load("pt_core_news_sm"),
